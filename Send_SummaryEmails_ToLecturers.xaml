@@ -319,7 +319,7 @@
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <If Condition="[Not String.IsNullOrWhiteSpace(CurrentRow(&quot;Attendance %&quot;).ToString) AndAlso&#xD;&#xA;CDbl(CurrentRow(&quot;Attendance %&quot;)) &lt; 75]" sap:VirtualizedContainerService.HintSize="515.2,412" sap2010:WorkflowViewState.IdRef="If_1">
+                                            <If Condition="[Not String.IsNullOrWhiteSpace(CurrentRow(&quot;Attendance %&quot;).ToString) AndAlso&#xA;CDbl(CurrentRow(&quot;Attendance %&quot;)) &lt; 75]" sap:VirtualizedContainerService.HintSize="515.2,412" sap2010:WorkflowViewState.IdRef="If_1">
                                               <If.Then>
                                                 <Sequence sap:VirtualizedContainerService.HintSize="481.6,228.8" sap2010:WorkflowViewState.IdRef="Sequence_11">
                                                   <sap:WorkflowViewStateService.ViewState>
